@@ -58,8 +58,8 @@ under five-fold cross-validation.
 |----------|---------|-------------|
 | CPU | 4 cores | 8 cores or more |
 | System memory | 8 GB | 16 GB |
-| GPU | not required | CUDA device with 6 GB of memory or more |
-| Disk | 2 GB | 10 GB if prediction rasters are written |
+| GPU | not required | CUDA device with 12 GB of memory or more |
+| Disk | 10 GB | 30 GB if prediction rasters are written |
 
 A CUDA device is optional for training at this sample size but becomes
 necessary when the trained model is applied to a full scene, where the encoding
